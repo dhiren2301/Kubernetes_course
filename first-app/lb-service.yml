@@ -8,5 +8,5 @@ spec:
     targetPort: tomcatport
     protocol: TCP
   selector:
-    app: first-pod-example
+    app: lb-pod-example
   type: NodePort
